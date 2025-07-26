@@ -1,0 +1,12 @@
+.loginb{
+    border-radius: 8px;
+    border: 1px solid #A5A5A5;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 138px;
+    height: 100%;
+    padding: 6px 0 ;
+    gap: 6px;
+}

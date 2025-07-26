@@ -1,0 +1,14 @@
+.btn-submenu{
+    margin-right: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.link-pages{
+    width: 387px;
+    height: 26px;
+    /* background-color: black; */
+    display: flex;
+    gap: 27px;
+}

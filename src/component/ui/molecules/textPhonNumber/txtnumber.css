@@ -1,0 +1,9 @@
+.content-pi{
+    display: flex;
+    align-items: center;
+    font-size: 15.28px;
+}
+.n-ltr{
+    display: flex;
+    flex-direction: row-reverse;
+}

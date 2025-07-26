@@ -1,0 +1,13 @@
+.searchbox{
+    width: 509px;
+    height: 48px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fff;
+    align-items: center;
+    margin-right: 153px;
+}
+.b-search{
+    width: 65%;
+    border-right:1px solid #E8E8E8; 
+}

@@ -1,0 +1,30 @@
+.slide {
+    width: 85.54734802246094px;
+    height: 122.1446px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    transition: all .5s ease;
+}
+
+.box-btn {
+    width: 100%;
+    height: 80.34011840820312px;
+}
+
+.slide.active {
+    width: 122.74185943603516px;
+    height: 100%;
+    /* background-color: black; */
+}
+
+.slide.active button {
+    height: 115.27059936523438px;
+}
+
+.slide.active button svg stop,
+.slide.active span {
+    fill: #7B63FF;
+    stop-color: #5F44F3;
+}

@@ -1,0 +1,9 @@
+.logincart{
+    width: 231px;
+    height: 38px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}

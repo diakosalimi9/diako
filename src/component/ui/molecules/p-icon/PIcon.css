@@ -1,0 +1,7 @@
+.content-pi {
+    display: flex;
+    gap: 8px;
+    /* direction: ltr; */
+    align-items: center;
+    justify-content: center;
+}
