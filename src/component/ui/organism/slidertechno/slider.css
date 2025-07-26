@@ -6,20 +6,19 @@
 }
 
 .slider-wrapper {
-    width: 1010.7314453125px;
+    width: 876.731445px;
     height: 175.4248504638672px;
     margin-top: 35.76px;
     display: flex;
     align-items: center;
-    /* gap: 54px; */
     position: relative;
+    /* padding: 20px; */
 }
 
 .s , .swiper-wrapper {
     width: 100%;
     height: 100%;
     display: flex;
-    /* flex-direction: row-reverse; */
 }
 
 .swiper-slide {

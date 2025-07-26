@@ -15,12 +15,23 @@
     font-size: 14.53px;
     font-weight: 800;
     color: #FFFFFF;
-    font-family: yekanbakh;
+    font-family: "yekanbakh";
 
 }
 .text-p{
     color: #43454D;
     font-size: 15px;
     font-weight: 600;
-    font-family: yekanbakh;
+    font-family: "yekanbakh";
+}
+.text-fomtManeli{
+    font-family: Maneli;
+    font-size: 20px;
+    font-weight: 400;
+}
+.boldtext{
+    font-family: "yekanbakh";
+    font-style: ExtraBold;
+    font-weight: 800;
+    font-size: 36px;
 }

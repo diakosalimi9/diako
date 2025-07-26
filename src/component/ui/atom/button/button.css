@@ -1,11 +1,12 @@
-.btn{
+.btn {
     width: 50px;
     height: 48px;
     background-color: #664BFA;
     border-radius: 8px 0 0 8px;
     border: none;
 }
-.submenu{
+
+.submenu {
     width: 206.69000244140625px;
     height: 48px;
     border-radius: 7px;
@@ -16,14 +17,37 @@
     justify-content: center;
     gap: 12px;
 }
-.btn-slide{
+
+.btn-slide {
     width: 100%;
     height: 100%;
     border-radius: 12.65px;
     border: none;
     background-color: #fff;
 }
-.btn-next-slide{
+
+.btn-next-slide {
     position: absolute;
+    width: 35px;
+    height: 35px;
     z-index: 10;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 35%;
+    border: none;
+}
+
+.btn-prev-slide {
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    top: 35%;
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

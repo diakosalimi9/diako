@@ -6,4 +6,7 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
+    font-family: "yekanbakh";
+    color: #43454D;
+    font-style: SemiBold;
 }

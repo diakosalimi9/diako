@@ -1,4 +1,5 @@
 .span-number-white{
+    font-family: yekanbakh;
     color: #fff;
     font-style: SemiBold;
     font-size: 15.28px;
@@ -10,4 +11,10 @@
     font-size: 11.74px;
     font-style: bold;
     color: #43454D;
+}
+.textbold-700{
+    font-family: yekanbakh;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 31.38px;
 }

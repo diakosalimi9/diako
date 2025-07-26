@@ -23,7 +23,6 @@ export default function SliderTechno() {
                 <Swiper
                     modules={[Navigation, Keyboard]}
                     // navigation
-                    navigation
                     slidesPerView={6}
                     centeredSlides={true}
                     initialSlide={2}
@@ -47,8 +46,8 @@ export default function SliderTechno() {
                             {/* <div>Current slide is {isActive ? 'active' : 'not active'}</div> */}
                         </SwiperSlide>
                     ))}
-                    <SlideNextButton />
                     <SlidePrevButton />
+                    <SlideNextButton />
                 </Swiper>
             </div>
         </div>

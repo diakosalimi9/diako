@@ -23,8 +23,8 @@
     height: 115.27059936523438px;
 }
 
-.slide.active button svg stop,
+.slide.active button svg stop:nth-child(1),
 .slide.active span {
-    fill: #7B63FF;
+    color: #7B63FF;
     stop-color: #5F44F3;
 }

@@ -1,11 +1,30 @@
-.box-cctv-t{
+.box-cctv-t {
     width: 100%;
     height: 503.75px;
-    background-color: black;
+    margin-bottom: 20px;
 }
-.content-cctv{
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-cctv {
+    width: 1100px;
     height: 100%;
-    width: 1240px;
     border-radius: 37.89px;
-    background: linear-gradient(top, #7B63FF,#5C40F1);
+    background: linear-gradient(to bottom, #7B63FF, #5C40F1);
+    overflow: hidden;
+    display: flex;
+}
+
+.box-left {
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+}
+.box-right{
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    /* background-color: red; */
 }
