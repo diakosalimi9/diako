@@ -1,0 +1,109 @@
+.k {
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    padding-left: 20px;
+    margin: 5px 0 0 0;
+    flex-wrap: wrap;
+}
+
+.k .box-img-s {
+    width: 218px;
+    height: 200px;
+    background-color: green;
+    border-radius: 12.23px;
+
+}
+
+.offbtn {
+    width: 440px;
+    height: 49px;
+    margin-top: 20px;
+    background-color: #DDDDDD;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    border: 1px dotted #6d0000;
+    clip-path: polygon(0 0, 100% 0, 99% 50%, 100% 100%, 0 100%, 1% 50%);
+    border-radius: 8px;
+    padding-right: 22px;
+}
+
+.offbtn button {
+    height: 100%;
+    width: 150px;
+    background-color: #7B63FF;
+    border: none;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 96% 50%, 100% 100%, 0 100%, 4% 50%);
+    border-radius: 8px;
+
+    }
+
+    .timer-btnaddcart {
+        width: 100%;
+        height: 100px;
+        /* background-color: red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: none;
+
+    }
+
+    .timer-btnaddcart button {
+        display: flex;
+        width: 256px;
+        height: 45px;
+        background-color: #FB3D3D;
+        align-items: center;
+        justify-content: center;
+        gap: 14.27px;
+        border: none;
+        border-radius: 6px;
+        font-size: 19.42px;
+        font-family: "yekanbakh";
+        color: #fff;
+    }
+
+    .offbtn button span {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "yekanbakh";
+        font-style: bold;
+    }
+
+    .offbtn p {
+        color: #43454D;
+        font-size: 17.11px;
+        font-family: "yekanbakh";
+        font-weight: 700;
+        font-style: bold;
+    }
+
+    .offbtn>span {
+        text-decoration: line-through;
+        color: #B4B4B4;
+        font-size: 15.55px;
+        font-style: Regular;
+        font-weight: 400;
+    }
+
+    /* clip-path: polygon( */
+    /* 0% 0%,        بالا چپ */
+    /* 45% 0%,       ابتدای بریدگی بالا */
+    /* 50% 8%,       نوک مثلث بالا */
+    /* 55% 0%,       انتهای بریدگی بالا */
+    /* 100% 0%,      بالا راست */
+    /* 100% 100%,    پایین راست */
+    /* 55% 100%,     شروع بریدگی پایین */
+    /* 50% 92%,      نوک مثلث پایین */
+    /* 45% 100%,     انتهای بریدگی پایین */
+    /* 0% 100%       پایین چپ */
+    /* ); */

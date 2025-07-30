@@ -1,0 +1,11 @@
+.text-icon-rowrevrs{
+    width: fit-content;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 1rem;
+}
+.text-icon-rowrevrs svg{
+    width: 59.59303283691406px;
+    height: 41.25664520263672px;
+}

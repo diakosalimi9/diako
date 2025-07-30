@@ -6,6 +6,7 @@
     justify-content: space-between;
     text-align: center;
     transition: all .5s ease;
+    /* margin-left: 5px; */
 }
 
 .box-btn {

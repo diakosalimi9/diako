@@ -1,0 +1,11 @@
+.btns-newproduct{
+    width: 100%;
+    height: 66px;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+

@@ -1,0 +1,10 @@
+.text-icon-row{
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.text-icon-row svg{
+    width: 11.333333015441895px;
+    height: 20.66666603088379px;
+}

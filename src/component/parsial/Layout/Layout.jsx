@@ -10,8 +10,12 @@ export default function Layout({ children }) {
                 <Header2 />
                 <NavBar />
             </div>
+
             <div>{children}</div>
-            <div></div>
+
+            <div>
+                
+            </div>
         </>
     )
 }

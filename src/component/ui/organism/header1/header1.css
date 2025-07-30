@@ -8,10 +8,9 @@
 }
 .content{
     display: flex;
-    gap: 232px;
+    gap: 180px;
     width: 1228px; 
     height: 34px;
-    /* background-color: black; */
     display: flex;
     justify-content: center;
     align-items: center;

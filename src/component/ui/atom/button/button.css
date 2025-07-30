@@ -51,3 +51,30 @@
     align-items: center;
     justify-content: center;
 }
+
+.buttoncate.ative {
+    width: 120px;
+    height: 44px;
+    background-color: #7B63FF;
+    border-radius: 9px;
+    color: #fff;
+    border: none;
+}
+.buttoncate.ative svg path{
+    fill: #fff;
+}
+.buttoncate {
+    width: 120px;
+    height: 44px;
+    background-color: transparent;
+    border-radius: 9px;
+    border: none;
+    color: #475569;
+    font-size: 16.94px;
+    font-weight: 600;
+    font-family: "yekanbakh";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

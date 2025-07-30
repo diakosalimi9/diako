@@ -3,6 +3,7 @@
     height: 287px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .slider-wrapper {
@@ -11,8 +12,6 @@
     margin-top: 35.76px;
     display: flex;
     align-items: center;
-    position: relative;
-    /* padding: 20px; */
 }
 
 .s , .swiper-wrapper {
@@ -20,7 +19,9 @@
     height: 100%;
     display: flex;
 }
-
+.slider .swiper-wrapper{
+    margin-right: -73px; 
+}
 .swiper-slide {
     display: flex;
     justify-content: center;

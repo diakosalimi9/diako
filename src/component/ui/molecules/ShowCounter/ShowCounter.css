@@ -1,0 +1,14 @@
+/* .box-timer-btn{
+    width: 250px;
+    display: flex;
+    height: 100%;
+    background-color: rgb(195, 151, 151);
+} */
+.show-counter{
+    display: flex;
+    /* background-color: red; */
+    /* flex-direction: row-reverse; */
+    gap: 10px;
+    text-align: center;
+    height: 80px;
+}

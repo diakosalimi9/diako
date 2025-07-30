@@ -16,16 +16,14 @@ const slides = [
     { nameicom: "camera", text: "دوربین عکاسی" },
 ]
 export default function SliderTechno() {
-    // const [activeSlide, setActiveSlide] = useState(null)
     return (
         <div className="slider">
             <div className="slider-wrapper">
                 <Swiper
                     modules={[Navigation, Keyboard]}
-                    // navigation
                     slidesPerView={6}
-                    centeredSlides={true}
                     initialSlide={2}
+                    spaceBetween={1}
                     keyboard={{
                         enabled: true,
                         onlyInViewport: true,
@@ -34,6 +32,8 @@ export default function SliderTechno() {
                     autoplay={
                         { delay: 1000 }
                     }
+                    dir="rtl"
+                    centeredSlides={true}
                     className="s"
                 >
                     {slides.map((item, index) => (

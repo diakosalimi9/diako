@@ -1,0 +1,57 @@
+.mainbox-newproduct{
+    width: 100%;
+    height: 510px;
+
+    margin-bottom: 60px;
+    display: grid;
+    place-items: center;
+}
+.mainbox-newproduct .content-p{
+    width: 1100px;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.content-p .R{
+    width: 350px;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #1A75BA0A;
+
+}
+.L{
+    width: 720px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.R .title{
+    width: 90%;
+
+}
+.imgbox-mouse{
+    width: 312px;
+    height: 312px;
+}
+.title{
+    width: 80%;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: "yekanbakh";
+    text-align: left;
+    margin: 60px 0 0 0;
+}
+.title p{
+    margin: 0 0 10px 0;
+}
+.bo{
+    width: 100%;
+    height: 100%;
+    /* background-color: #f47373; */
+    border-radius: 10.39px;
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,48 @@
+.btns {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.box-btnsugess {
+    width: 367px;
+    height: 40px;
+    transition: all 2s ease;
+
+}
+
+.box-btnsugess .btns-suges {
+    width: 99%;
+    height: 100%;
+    border: none;
+    font-family: "yekanbakh";
+    font-size: 1rem;
+    color: #43454D;
+    margin-left: 3px;
+    background-color: transparent;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.btns-suges.actives {
+    transition: all .8s ease;
+    background-image: linear-gradient(to left, #7B63FF, #C3B8FF00);
+    border-radius: 4px;
+    position: relative;
+    color: #fff;
+}
+
+.btns-suges.actives::before {
+    content: "";
+    position: absolute;
+    background-color: #FFF;
+    width: 2.5px;
+    height: 28px;
+    border-radius: 4px;
+    right: 2%;
+    top: 14%;
+
+}

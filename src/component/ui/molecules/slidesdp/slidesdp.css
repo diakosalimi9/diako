@@ -1,0 +1,109 @@
+.box-silde-dp {
+    width: 228.1091px;
+    height: 361.4195556640625px;
+    border-radius: 8.89px;
+    box-shadow: 0 0 28.19px 0 #862f2f1a;
+    background-color: #fff;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all .4s ease-in-out;
+}
+
+.box-silde-dp .text {
+    display: none;
+    width: 281.861572265625px;
+    height: 34px;
+}
+
+.box-silde-dp.activslide{
+    width: 378.6340637207031px;
+    height: 500.7740783691406px;
+    background-color: #FF3D3D;
+}
+.box-silde-dp.activslide .title-slide p ,.box-silde-dp.activslide .title-slide span{
+    color: #fff;
+}
+.box-silde-dp.activslide p:nth-child(2),.box-silde-dp.activslide .btn-addcart{
+    display: none;
+}
+.none {
+    display: none;
+    width: 100%;
+}
+.box-silde-dp.activslide .box-img{
+    width: 208.5775604248047px;
+    height: 208.5775604248047px;
+    border-radius: 9.8px;
+    overflow: hidden;
+}
+
+.box-silde-dp.activslide .none {
+    display: grid;
+    place-items: center;
+    font-size: 22.55px;
+    font-weight: 700;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.box-img {
+    background-color: green;
+    width: 134.87890625px;
+    height: 144.83641052246094px;
+    margin: 30px 0;
+}
+
+.box-img img {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.title-slide p:nth-child(1) {
+    font-family: Yekan Bakh;
+    font-weight: 500;
+    font-size: 15.19px;
+    color: #43454D;
+    /* margin: 5px 0; */
+}
+
+.title-slide p:nth-child(2) {
+    font-size: 12.19px;
+    font-family: "GilroyExtraBold";
+    color: #8D8D8D;
+    font-weight: 400;
+}
+
+.title-slide p {
+    margin: 10px;
+}
+
+.title-slide span {
+    color: #43454D;
+    font-size: 16.79px;
+    font-family: "yekanbakh";
+    font-style: bold;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.btn-addcart {
+    width: 100%;
+    height: 33.574493408203125;
+    margin: 20px 0 0 0;
+}
+
+.btn-addcart button {
+    width: 188.60968017578125px;
+    height: 33.574493408203125;
+    border-radius: 7.9px;
+    font-size: 13.19px;
+    font-family: "yekanbakh";
+    border: none;
+    padding: 8px 0;
+    background-color: #7B63FF;
+}
