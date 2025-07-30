@@ -1,0 +1,57 @@
+.mainbox-laptops {
+    width: 100%;
+    height: 464px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 60px;
+}
+
+.container-laptops {
+    overflow: hidden;
+    width: 1100px;
+    height: 100%;
+    border-radius: 37.89px;
+    border: 1px solid #49ADFF4A;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.img-laptops {
+    background-image: linear-gradient(to left, #49ADFF, #49ADFF00);
+    width: 350px;
+    height: 100%;
+    display: flex;
+    place-items: center;
+}
+
+.img-laptops img {
+    width: 100%;
+    height: 260px;
+
+}
+
+.list-likslaptops {
+    width: 650px;
+    height: 220px;
+    display: flex;
+
+}
+
+.list-likslaptops .li-category {
+    color: #49ADFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.list-likslaptops li {
+    color: #43454D;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "yekanbakh";
+}
+
+.list-likslaptops ul:nth-child(1),
+.list-likslaptops ul:nth-child(2) {
+    border-left: 1px solid #D9D9D9;
+}
