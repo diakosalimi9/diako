@@ -5,20 +5,20 @@ import "swiper/css"
 import "swiper/css/navigation"
 import "./sliderdp.css"
 
-import band from "../../../../assets/images/band.png"
+// import band from "../../../../assets/images/band.png"
 import SlidesDp from "../../molecules/slidesdp/SlidesDp";
 import TextDp from "../../molecules/texticondp/TextDp";
 import Text2Dp from "../../molecules/text2dp/Text2Dp";
 
 const slidesDp = [
-    { img: { band }, titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۱۰/۲۹۹/۰۰۰ تومان" },
-    { img: { band }, titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۵۴/۲۰۰ تومان" },
-    { img: { band }, titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۵۴/۲۰۰ تومان" },
-    { img: { band }, titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۵۴/۲۰۰ تومان" },
-    { img: { band }, titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۱۰/۲۹۹/۰۰۰ تومان" },
-    { img: { band }, titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۵۴/۲۰۰ تومان" },
-    { img: { band }, titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۵۴/۲۰۰ تومان" },
-    { img: { band }, titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۵۴/۲۰۰ تومان" },
+    { img: "src/assets/images/band.png", titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۱۰/۲۹۹/۰۰۰ تومان" },
+    { img: "src/assets/images/band.png", titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۵۴/۲۰۰ تومان" },
+    { img: "src/assets/images/band.png", titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۵۴/۲۰۰ تومان" },
+    { img: "src/assets/images/band.png", titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۵۴/۲۰۰ تومان" },
+    { img: "src/assets/images/band.png", titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۱۰/۲۹۹/۰۰۰ تومان" },
+    { img: "src/assets/images/band.png", titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۵۴/۲۰۰ تومان" },
+    { img: "src/assets/images/band.png", titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۵۴/۲۰۰ تومان" },
+    { img: "src/assets/images/band.png", titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۵۴/۲۰۰ تومان" },
 ]
 export default function SliderDP() {
 
@@ -32,7 +32,7 @@ export default function SliderDP() {
                 </div>
 
                 <Swiper
-                    modules={[Navigation,Keyboard,Autoplay]}
+                    modules={[Navigation, Keyboard, Autoplay]}
                     navigation
                     spaceBetween={10}
                     slidesPerView={4}

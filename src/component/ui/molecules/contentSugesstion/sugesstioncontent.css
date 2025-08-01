@@ -69,6 +69,7 @@
         font-size: 19.42px;
         font-family: "yekanbakh";
         color: #fff;
+        cursor: pointer;
     }
 
     .offbtn button span {

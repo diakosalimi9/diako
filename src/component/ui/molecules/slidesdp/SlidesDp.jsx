@@ -2,10 +2,10 @@ import P from "../../atom/p/P"
 import Span from "../../atom/span/Span"
 import Button from "../../atom/button/Button"
 import "./slidesdp.css"
-export default function SlidesDp({classname,img,titleFa,titleEn,price}){
-    return(
+export default function SlidesDp({ classname, img, titleFa, titleEn, price }) {
+    return (
         <div className={classname}>
-            
+
             <div className={"none"}>شگفت انگیز های دیتا پرژکتور</div>
 
             <div className="box-img">

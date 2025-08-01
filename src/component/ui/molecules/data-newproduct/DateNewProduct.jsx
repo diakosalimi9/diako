@@ -43,7 +43,7 @@ export default function DateNewProduct({ active }) {
                             <Span>{item.price}</Span>
                         </div>
                         <div className="btn-addcart">
-                            <Button >افزودن به سبد خرید</Button>
+                            <Button>افزودن به سبد خرید</Button>
                         </div>
                     </div>
                 </>

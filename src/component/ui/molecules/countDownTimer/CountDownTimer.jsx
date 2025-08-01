@@ -8,7 +8,7 @@ const CountdownTimer = ({ targetDate }) => {
   const [days, hours, minutes, seconds] = useCountdown(targetDate);
   return (
     <>
-      {seconds <= 0 ? (
+      {seconds < 0 ? (
 
           <Expired />
 

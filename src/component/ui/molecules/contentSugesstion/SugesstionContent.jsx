@@ -18,8 +18,6 @@ const data = [
 
 export default function SugesstionContent({ activeslideb }) {
     const THREE_DAYS = new Date(data[activeslideb].timeoffprice).getTime();
-//   const [seconds] = useCountdown(targetDate);
-  const [seconds] = useCountdown();
 
     return (
         <div className="k">
@@ -31,16 +29,13 @@ export default function SugesstionContent({ activeslideb }) {
                 <div className="offbtn">
                     <Span> ۵/۲۵۰/۰۰۰ تومان</Span>
                     <P>{data[activeslideb].price}</P>
-                    {seconds <= 0 ?(<>
-                    <p></p>
-                    </>):(<>
-                        <Button><Span>٪۱۵ تخفیف</Span></Button>
-                    </>)}
+                    <Button><Span>٪۱۵ تخفیف</Span></Button>
+
                 </div>
             </div>
             <div className="timer-btnaddcart">
                 <CountDownTimer targetDate={THREE_DAYS} />
-                {console.log(<CountDownTimer/>)}
+                {console.log(<CountDownTimer />)}
                 <Button><Icon name={"cart1"} /> مشاهده و خرید محصول</Button>
             </div>
         </div>

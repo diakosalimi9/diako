@@ -1,3 +1,4 @@
+import Bestsellingproducts from "../component/ui/organism/Bestsellingproducts/BestSellinProducts";
 import Ccctv from "../component/ui/organism/box-camera/Ccctv";
 import NewProduct from "../component/ui/organism/boxnewproduct/NewProduct";
 import Sugesstion from "../component/ui/organism/boxsugesstion/Sugesstion";
@@ -16,6 +17,7 @@ export default function Home() {
             <NewProduct />
             <Laptops/>
             <PromoCart />
+            <Bestsellingproducts />
         </>
     )
 }
