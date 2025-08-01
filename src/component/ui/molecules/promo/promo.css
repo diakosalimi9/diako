@@ -42,7 +42,7 @@
 
 .promo-left .title {
     width: fit-content;
-    margin-right: 60px;
+    margin:25px 60px 0 0;
 }
 
 .promo-left .box-images-promo img:nth-child(1) {

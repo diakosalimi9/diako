@@ -6,7 +6,7 @@ import Icon from "../../atom/icon/Icon"
 
 import "./sugesstioncontent.css"
 import Img from "../../atom/img/Img"
-import imgwatch from "../../../../assets/images/watch.png"
+import { useCountdown } from "../../../../hooks/useCountDown"
 
 
 const data = [
@@ -18,7 +18,8 @@ const data = [
 
 export default function SugesstionContent({ activeslideb }) {
     const THREE_DAYS = new Date(data[activeslideb].timeoffprice).getTime();
-    console.log(THREE_DAYS);
+//   const [seconds] = useCountdown(targetDate);
+  const [seconds] = useCountdown();
 
     return (
         <div className="k">
@@ -30,12 +31,16 @@ export default function SugesstionContent({ activeslideb }) {
                 <div className="offbtn">
                     <Span> ۵/۲۵۰/۰۰۰ تومان</Span>
                     <P>{data[activeslideb].price}</P>
-                    <Button><Span>٪۱۵ تخفیف</Span></Button>
+                    {seconds <= 0 ?(<>
+                    <p></p>
+                    </>):(<>
+                        <Button><Span>٪۱۵ تخفیف</Span></Button>
+                    </>)}
                 </div>
             </div>
             <div className="timer-btnaddcart">
                 <CountDownTimer targetDate={THREE_DAYS} />
-
+                {console.log(<CountDownTimer/>)}
                 <Button><Icon name={"cart1"} /> مشاهده و خرید محصول</Button>
             </div>
         </div>

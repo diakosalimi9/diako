@@ -25,9 +25,9 @@ const datacategory = [
         { img: "src/assets/images/Airpod1.png",titleFa: "هدفون بلوتوثی اپل مدل AirPods Max", titleEn: "Apple AirPods Max Bluetooth", price: "54/000 تومان" },
     ],
     [
-        { img: "src/assets/images/Airpod1.png",titleFa: "هدفون بلوتوثی اپل مدل AirPods Max", titleEn: "Apple AirPods Max Bluetooth", price: "54/000 تومان" },
-        { img: "src/assets/images/Airpod1.png",titleFa: "هدفون بلوتوثی اپل مدل AirPods Max", titleEn: "Apple AirPods Max Bluetooth", price: "54/000 تومان" },
-        { img: "src/assets/images/Airpod1.png",titleFa: "هدفون بلوتوثی اپل مدل AirPods Max", titleEn: "Apple AirPods Max Bluetooth", price: "54/000 تومان" },
+        { img: "src/assets/images/Airpod1.png",titleFa: "هدفون بلوتوثی اپل مدل AirPods Max", titleEn: "Apple AirPods Max Bluetooth", price: "54/000/000 تومان" },
+        { img: "src/assets/images/Airpod1.png",titleFa: "هدفون بلوتوثی اپل مدل AirPods Max", titleEn: "Apple AirPods Max Bluetooth", price: "6/000/000 تومان" },
+        { img: "src/assets/images/Airpod1.png",titleFa: "هدفون بلوتوثی اپل مدل AirPods Max", titleEn: "Apple AirPods Max Bluetooth", price: "50/000/000 تومان" },
     ],
 ]
 export default function DateNewProduct({ active }) {

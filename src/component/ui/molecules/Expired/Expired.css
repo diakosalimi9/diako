@@ -1,0 +1,15 @@
+.expired-notice{
+    /* width: 200px; */
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.expired-notice p{
+    color: transparent;
+    font-size: 20px;
+    background-image: linear-gradient(to right,#FB3D3D,#7B63FF);
+    background-clip: text;
+}
