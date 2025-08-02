@@ -46,8 +46,8 @@ export default function SliderTechno() {
                             {/* <div>Current slide is {isActive ? 'active' : 'not active'}</div> */}
                         </SwiperSlide>
                     ))}
-                    <SlidePrevButton />
-                    <SlideNextButton />
+                    <SlidePrevButton icon={"btn-arrow-right"} classN={"btn-prev-slide"}/>
+                    <SlideNextButton icon={"btn-arrow-left"} classN={"btn-next-slide"}/>
                 </Swiper>
             </div>
         </div>

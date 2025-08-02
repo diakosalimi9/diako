@@ -1,24 +1,28 @@
 @font-face {
-    font-family:"yekanbakh" ;
+    font-family: "yekanbakh";
     src: url(./assets/fonts/BYekan.ttf);
 }
+
 @font-face {
     font-family: "Maneli";
     src: url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.eot");
     src: url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.svg#Maneli")format("svg");
+        url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/048d796e38af6fe158614d528247b367.svg#Maneli")format("svg");
 }
+
 @font-face {
-    font-family: "GilroyExtraBold" ;
+    font-family: "GilroyExtraBold";
     src: url(./assets/fonts/GilroyExtraBold.otf);
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-ul{
+
+ul {
     list-style: none;
 }

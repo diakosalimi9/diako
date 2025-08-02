@@ -1,6 +1,6 @@
 import "./sliderdp.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Keyboard, Autoplay } from "swiper/modules"
+import {Keyboard } from "swiper/modules"
 import "swiper/css"
 import "swiper/css/navigation"
 import "./sliderdp.css"
@@ -9,6 +9,8 @@ import "./sliderdp.css"
 import SlidesDp from "../../molecules/slidesdp/SlidesDp";
 import TextDp from "../../molecules/texticondp/TextDp";
 import Text2Dp from "../../molecules/text2dp/Text2Dp";
+import SlidePrevButton from "../../molecules/slideprevbutton/SlidePrevButton";
+import SlideNextButton from "../../molecules/buttonnexslide/ButtonNextSlide";
 
 const slidesDp = [
     { img: "src/assets/images/band.png", titleFa: "آیپد مینی ۲۰۲۱ ظرفیت ۶۴ گیگابایت", titleEn: "Apple Ipad Mini 2021 (wifi)", price: "۱۰/۲۹۹/۰۰۰ تومان" },
@@ -32,9 +34,8 @@ export default function SliderDP() {
                 </div>
 
                 <Swiper
-                    modules={[Navigation, Keyboard, Autoplay]}
-                    navigation
-                    spaceBetween={10}
+                    modules={[ Keyboard]}
+                    spaceBetween={5}
                     slidesPerView={4}
                     loop
                     className="swiper-s"
@@ -43,6 +44,7 @@ export default function SliderDP() {
                         onlyInViewport: true,
                         pageUpDown: true,
                     }}
+
                 >
 
                     {slidesDp.map((item, index) => (
@@ -53,6 +55,8 @@ export default function SliderDP() {
                         </SwiperSlide>
 
                     ))}
+                    <SlideNextButton icon={"right4"} classN={"btn-prev-slid"} />
+                    <SlidePrevButton icon={"left4"} classN={"btn-next-slid"} />
                 </Swiper>
             </div>
         </div>

@@ -6,6 +6,7 @@ import Laptops from "../component/ui/organism/laptops/laptops";
 import PromoCart from "../component/ui/organism/promocart/PromoCart";
 import RonuxPromo from "../component/ui/organism/ronixPromo/RonixPromo";
 import SliderDP from "../component/ui/organism/sliderdp/SliderDP";
+import SliderMostVisited from "../component/ui/organism/slidermostvisited/SliderMostVisited";
 import SliderTechno from "../component/ui/organism/slidertechno/SliderTechno";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
             <PromoCart />
             <Bestsellingproducts />
             <RonuxPromo />
+            <SliderMostVisited />
         </>
     )
 }
