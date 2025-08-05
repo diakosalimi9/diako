@@ -1,0 +1,13 @@
+.products-discount-top{
+    width: 730px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.products-discount-top .boxes-newproduct{
+    height: 385.6777038574219px;
+}
+.products-discount-top .boxes-newproduct .btn-addcart button{
+    color: #fff;
+}

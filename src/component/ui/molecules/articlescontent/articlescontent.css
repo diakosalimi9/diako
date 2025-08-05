@@ -1,0 +1,58 @@
+.cart-article {
+    width: 343px;
+    height: 620px;
+    /* background-color: beige; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.cart-article img {
+    position: absolute;
+    top: 0;
+    width: 90%;
+}
+
+.content-article {
+    width: 100%;
+    height: 80%;
+    /* background-color: #fff; */
+    border-radius: 9px;
+    padding: 45% 25px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    box-shadow: 0 0 19px 0 #00000012;
+    font-family: "yekanbakh";
+
+}
+
+.content-article p:nth-child(1) {
+    font-weight: 700;
+    font-size: 21.97px;
+}
+
+.content-article p:nth-child(2) {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.content-article p span {
+    font-size: 32.23px;
+}
+.content-article p:nth-child(3) {
+    font-size: 15px;
+    font-weight: 500;
+}
+.message-morediscrip{
+    width: 100%;
+    height: 84px;
+
+    display: flex
+;
+    align-items: end;
+    padding: 0 10px;
+    justify-content: space-between;
+}

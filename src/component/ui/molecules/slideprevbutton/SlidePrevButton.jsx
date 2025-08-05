@@ -1,4 +1,3 @@
-import { React } from 'react';
 import { useSwiper } from 'swiper/react';
 import Button from '../../atom/button/Button';
 import Icon from '../../atom/icon/Icon';

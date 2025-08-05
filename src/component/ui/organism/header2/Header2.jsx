@@ -8,8 +8,8 @@ export default function Header2() {
         <div className="header2">
 
             <Logo></Logo>
-            <SearchBox></SearchBox>
-            <LoginCart></LoginCart>
+            <SearchBox/>
+            <LoginCart/>
         </div>
     )
 }

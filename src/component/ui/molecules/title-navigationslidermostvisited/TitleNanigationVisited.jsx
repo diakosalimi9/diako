@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Keyboard, Pagination } from "swiper/modules"
 import SlidePrevButton from "../slideprevbutton/SlidePrevButton";
 import SlideNextButton from "../buttonnexslide/ButtonNextSlide";
-import { useState } from "react";
+
 // import { Pagination } from 'swiper';
 const dataslidermostvisited = [
     { img: "src/assets/images/r.png", pricoffdiscount: "تا ۲۵٪ تخفیف", title: "انواع اینورتر رونیکس" },

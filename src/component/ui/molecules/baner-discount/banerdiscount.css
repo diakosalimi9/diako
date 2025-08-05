@@ -1,0 +1,55 @@
+.banerdiscount {
+    width: 340px;
+    height: 100%;
+    border-radius: 16px;
+    position: relative;
+    background-image: url(src/assets/images/Rectangle.png);
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+}
+
+.banerdiscount img:nth-child(1) {
+    position: absolute;
+    top: 4%;
+
+}
+
+.banerdiscount img:nth-child(2) {
+    width: 230px;
+    position: absolute;
+    top: 54.5%;
+    height: 360px;
+
+
+}
+
+.text-banerdiscount {
+    position: absolute;
+    top: 28%;
+    right: 10%;
+}
+
+.text-banerdiscount span:nth-child(1) {
+    font-size: 40px;
+    font-family: "yekanbakh";
+    color: #fff;
+    display: flex;
+
+    font-weight: 700;
+}
+
+.text-banerdiscount span:nth-child(2) {
+    font-size: 27.35px;
+    font-family: "yekanbakh";
+    color: #fff;
+    display: flex;
+
+    font-weight: 400;
+}
+
+.text-banerdiscount svg {
+    position: absolute;
+    top: 154%;
+    right: 130%;
+}

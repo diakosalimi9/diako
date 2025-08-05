@@ -1,0 +1,24 @@
+.content-asccess-footer {
+    width: 900px;
+    height: 100px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+}
+
+.content-access {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 18px;
+}
+
+.content-asccess-footer .content-access:nth-child(2) {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.content-asccess-footer .content-access:nth-child(3) {
+    border-left: 1px solid #fff;
+}

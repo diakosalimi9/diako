@@ -3,11 +3,13 @@ import Ccctv from "../component/ui/organism/box-camera/Ccctv";
 import NewProduct from "../component/ui/organism/boxnewproduct/NewProduct";
 import Sugesstion from "../component/ui/organism/boxsugesstion/Sugesstion";
 import Laptops from "../component/ui/organism/laptops/laptops";
+import LastArticles from "../component/ui/organism/lastarticles/LastArticles";
 import PromoCart from "../component/ui/organism/promocart/PromoCart";
 import RonuxPromo from "../component/ui/organism/ronixPromo/RonixPromo";
 import SliderDP from "../component/ui/organism/sliderdp/SliderDP";
 import SliderMostVisited from "../component/ui/organism/slidermostvisited/SliderMostVisited";
 import SliderTechno from "../component/ui/organism/slidertechno/SliderTechno";
+import TopDiscount from "../component/ui/organism/Topdiscount/TopِِِِِDiscount";
 
 export default function Home() {
     return (
@@ -22,6 +24,8 @@ export default function Home() {
             <Bestsellingproducts />
             <RonuxPromo />
             <SliderMostVisited />
+            <TopDiscount />
+            <LastArticles />
         </>
     )
 }

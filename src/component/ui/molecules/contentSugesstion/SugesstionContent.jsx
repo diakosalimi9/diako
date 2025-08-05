@@ -6,7 +6,6 @@ import Icon from "../../atom/icon/Icon"
 
 import "./sugesstioncontent.css"
 import Img from "../../atom/img/Img"
-import { useCountdown } from "../../../../hooks/useCountDown"
 
 
 const data = [
