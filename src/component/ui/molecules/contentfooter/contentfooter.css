@@ -1,0 +1,67 @@
+.content-footer {
+    width: 90%;
+    height: 222px;
+    display: flex;
+    gap: 100px;
+    font-family: "yekanbakh";
+}
+
+.list-link-footer {
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list-link-footer .list {
+    width: 135px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #666;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.box-news {
+    color: #43454D;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.mobile-signin{
+    height: 44px;
+    display: flex;
+
+}
+.mobile-signin button{
+    height: 100%;
+    width: 91px;
+    border-radius: 6px;
+    border: none;
+    background-color: #7B63FF;
+    color: #fff;
+    font-family: "yekanbakh";
+    font-weight: 700;
+    font-size: 14px;
+}
+.mobile-signin input{
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+
+}
+.communications{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+
+}

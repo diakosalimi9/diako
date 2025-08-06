@@ -1,31 +1,32 @@
-.mainbox-footer{
+.mainbox-footer {
     width: 100%;
     height: 560px;
-    background-color: bisque;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: end;
     position: relative;
 }
-.Accessbox{
+
+.Accessbox {
     width: 1100px;
-    height: 153px;
+    height: 130px;
     background-color: #fff;
-    border-radius: 22px;
-    position: absolute;
-    top: 5%;
+    border-radius: 22px 22px 0 0px;
     display: flex;
     justify-content: center;
     padding: 10px 0 0 0;
 }
-.footer-content{
+
+.footer-container {
     width: 100%;
     height: 387px;
     background-color: #fff;
-
+    display: grid;
+    place-items: center;
 }
-.mainbox-footer p{
+
+.mainbox-footer p {
     font-size: 18px;
     font-family: "yekanbakh";
     font-weight: 600;
